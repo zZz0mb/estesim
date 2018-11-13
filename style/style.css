@@ -1,0 +1,26 @@
+body{position:relative;margin:0;background:#000 url('/images/background.png') no-repeat fixed 0px 50px;font-family:'Segoe UI','Trebuchet MS',Calibri;font-size:16px;color:#DDD;text-shadow: #000 0px 0px 2px;}
+a{text-decoration:none;color:inherit;transition:.3s;font-weight:bold;}
+a:hover,#options label:hover{color:#999;transition:.3s;}
+#header{padding-top:0.5em;}
+#header h1{padding:0;margin:0 auto;width:80%;max-width:176px;}
+#header h1 img{display:block;width:100%;max-height:78px;padding:0;font-size:22px;}
+#content{max-width:728px;margin:auto;padding:0 10px;background:url('/images/zalgo.png') no-repeat;background-position: 150% 30%;}
+@media screen and (max-width: 600px) {#content{background-position: 40% 36%;}}
+#gadtop{overflow:hidden;margin:1em auto;max-width:728px;height:18px;}
+	@media screen and (max-width: 500px) {#gadtop ins{display:none;}#gadtop{display:none;}}
+#generator{position:relative;margin:1em auto;}
+#empty{position:absolute;z-index:999;top:0;right:0;height:25px;width:25px;line-height:25px;cursor:pointer;text-align:center;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+#textin,#textout{overflow-wrap: break-word;min-height:16px;padding:32px 20px;border-radius:3px;border:1px dotted #999;background:#333;word-break:normal;color:#FFF;text-shadow:none;opacity:0.9;}
+#textin:focus,#textout:focus{opacity:0.8;transition:.3s;}
+#textout{white-space: pre-wrap;}
+#options{display:block;max-width:320px;margin:2em auto;padding:0.3em;border:1px dotted #999;border-radius:2px;background:#333;font-size:16px;text-align:center;opacity:0.9;}
+#options:hover{opacity:0.8;transition:.3s}
+#options #position,#options #strength{display:inline-block;margin:0.3em auto;vertical-align:middle;}
+#options input{vertical-align:middle;}
+#options label{display:inline-block;vertical-align:middle;transition:.3s;}
+#generate{margin:2em;text-align:center;color:#FFF;}
+#generate span{display:inline-block;padding:2% 10%;border:1px dotted #999;border-radius:3px;background:#333;transition:.3s;cursor:pointer;font-size:20px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;opacity:0.9;}
+#generate span:hover{opacity:0.8;transition:.3s}
+#gadbottom{overflow:hidden;margin:2em auto 1em auto;max-width:728px;}
+.footerA span,.footerB span{display:inline-block;}	
+.footerB{border-top:1px solid #999;padding-top:1em;text-align:center;}
